@@ -1,0 +1,73 @@
+#name{
+    text-align: center;
+}
+
+#expensebody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+table{
+    border-style: groove;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+}
+
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+tr:nth-child(even){
+    background-color: lightsalmon;
+}
+
+tr:last-child{
+    background-color: white;
+}
+
+#header{
+    background-color: white;
+}
+
+.RightAlign{
+    text-align: right;
+}
+
+#expenseform{
+    grid-area: 2/1/2/1;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#when{
+    grid-area:1/2/1/2;
+}
+
+#what{
+    grid-area: 2/2/2/2;
+}
+
+#amt{
+    grid-area: 3/2/3/2;
+}
+
+#cat{
+    grid-area: 4/2/4/2;
+}
+
+#add{
+    grid-area: 5/2/5/2;
+}
+
+
